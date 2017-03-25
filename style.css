@@ -2,6 +2,7 @@ html {
 	background-color: #B2B2B6;
 	background-image: url('./images/background.jpg');
 	background-repeat: repeat-x;
+	background-size: auto cover;
 }
 body{
 margin: 150px 0px;
