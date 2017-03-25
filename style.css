@@ -29,6 +29,8 @@ color:#0366D6;
 }
 #copyright{
 	text-decoration:none;
-	color:#626262;	
+	color:#626262;
+	position:relative;
+	font-size:11px;
 }
 
