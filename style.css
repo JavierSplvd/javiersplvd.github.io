@@ -3,3 +3,30 @@ html {
 	background-image: url('./images/background.jpg');
 	background-repeat: repeat-x;
 }
+#navigation li {
+font-family:Arial;
+position:relative;
+left:-25px;
+top:-13px;
+color:#626262;
+font-size:16px;
+cursor:pointer;
+padding:10px;
+display:inline-block;
+
+}
+
+#navigation a{
+color:#636163;
+text-decoration:none;
+}
+
+#navigation li.selected { color:#6c5ec8; }
+
+#navigation li:hover{
+color:#6c5ec8;
+}
+
+#navigation li a:hover{
+color:#6c5ec8;
+}
