@@ -16,17 +16,3 @@ display:inline-block;
 
 }
 
-#navigation a{
-color:#636163;
-text-decoration:none;
-}
-
-#navigation li.selected { color:#6c5ec8; }
-
-#navigation li:hover{
-color:#6c5ec8;
-}
-
-#navigation li a:hover{
-color:#6c5ec8;
-}
