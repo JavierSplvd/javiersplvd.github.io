@@ -27,4 +27,8 @@ text-align:center;
 #navigation li:hover{
 color:#0366D6;
 }
+#copyright{
+	text-decoration:none;
+	color:#626262;	
+}
 
