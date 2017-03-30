@@ -3,9 +3,10 @@ html {
 	background-image: url('./images/background.jpg');
 	background-repeat: repeat-x;
 	background-size: auto cover;
+	background-attachment:fixed;
 }
 body{
-margin: 150px 0px;
+margin: 0px 0px;
 text-align: center;
 }
 #title{
@@ -19,7 +20,10 @@ text-decoration:none;
 }
 #topBar{
 font-family:Calibri;
-margin:-50px auto;
+margin:0px auto;
+padding-top: 100px;
+padding-left:100px;
+padding-right:100px;
 width:600px;
 }
 #navigation li {
@@ -40,6 +44,9 @@ color:#626262;
 }
 .selected{
 color:#0366D6;
+}
+#content{
+	min-height:450px;
 }
 #copyright{
 	font-family:Calibri;
