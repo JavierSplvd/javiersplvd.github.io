@@ -10,10 +10,10 @@ margin: 0px 0px;
 text-align: center;
 }
 #title{
-font-family:Cambria;
+font-family:Cambria, Georgia;
 cursor:pointer;
 border-bottom: 1px solid #626262;
-font-size:22px;
+font-size:28px;
 padding:10px;
 color: black;
 text-decoration:none;
@@ -30,9 +30,10 @@ width:800px;
 position:relative;
 left:-25px;
 top:-13px;
-font-size:16px;
-cursor:pointer;
-padding:10px;
+font-size:20px;
+padding-top:10px;
+padding-left:30px;
+padding-right:30px;
 display:inline-block;
 text-align:center;
 }
@@ -41,9 +42,11 @@ color:#0366D6;
 }
 .unselected{
 color:#626262;
+cursor:pointer;
 }
 .selected{
 color:#0366D6;
+cursor:default;
 }
 #content{
 	min-height:450px;
