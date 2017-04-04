@@ -1,6 +1,6 @@
 html {
 	background-color: #B2B2B6;
-	background-image: url('./images/background.jpg');
+	background-image: url('./images/background2.png');
 	background-repeat: repeat-x;
 	background-size: auto cover;
 	background-attachment:fixed;
@@ -8,6 +8,7 @@ html {
 body{
 margin: 0px 0px;
 text-align: center;
+min-height:100%;
 }
 #title{
 font-family:Cambria, Georgia;
@@ -24,7 +25,10 @@ margin:0px auto;
 padding-top: 100px;
 padding-left:100px;
 padding-right:100px;
+padding-bottom:300px;
 width:800px;
+background-image: url('./images/background.jpg');
+background-attachment:fixed;
 }
 #navigation li {
 position:relative;
