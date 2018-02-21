@@ -13,8 +13,10 @@
 		Javier Sepúlveda - Ingeniero Civil y Territorial
 		</title>
 		<!-- Bootstrap core CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<!-- Custom styles for this template -->
 		<link href="style.css" rel="stylesheet">
 
@@ -22,25 +24,65 @@
 	</head>
 
   <body>
-
-		<nav class="navbar navbar-light bg-light">
-			<a class="navbar-brand">Javier Sepúlveda Verdugo</a>
+		<nav class="navbar sticky-top flex-md-nowrap p-0">
+			<a class="heading col-sm-3 col-md-2 mr-0" href="#">Javier Sepúlveda Verdugo</a>
 		</nav>
-    <div class="container mt-5">
-			<div class="jumbotron d-flex flex-column">
-				<h5 class="c-white">Grado en Ingeniería Civil y Territorial</h5>
-				<h5 class="c-white">Máster en Ingeniería de Caminos, Canales y Puertos</h5>
-			</div>
-    </div>
+		<div class="container-fluid">
+			<div class="row">
+				<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+					<div class="sidebar-sticky">
+						<div class="container-fluid">
+							<div class="row">
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<a class="nav-link" id="engineering-tab" data-toggle="pill" href="#engineering" role="tab" aria-controls="engineering" aria-selected="false">
+											<object data="stone-bridge.svg" type="image/svg+xml" class="feather"></object>
+											Civil Engineering
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="programming-tab" data-toggle="pill" href="#programming" role="tab" aria-controls="programming" aria-selected="false">
+											<object data="circuitry.svg" type="image/svg+xml" class="feather"></object>
+											Programming skills
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="art-tab" data-toggle="pill" href="#art" role="tab" aria-controls="art" aria-selected="false">
+											<object data="palette.svg" type="image/svg+xml" class="feather"></object>
+											Art and computer games
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</nav>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+				<main role="main" class="col-md-4 ml-sm-auto col-lg-5 pt-3 px-4">
+					<div class="tab-content" id="pills-tabContent">
+						<div class="tab-pane fade" id="engineering" role="tabpanel" aria-labelledby="engineering-tab">
+							2011-2016: Bachelor degree in Civil Engineering in the Universidad Politécnica de Madrid.
+							<br>
+							2016-2018: Master degree in Civil Engineering in the Universidad Politécnica de Madrid, expertise in civil constructions.
+						</div>
+						<div class="tab-pane fade" id="programming" role="tabpanel" aria-labelledby="programming-tab">
+							I usually work with: python and java.
+							<br>
+							Also HTML, CSS and javascript.
+							<br>
+							Experience developing GIS applications.
+						</div>
+						<div class="tab-pane fade" id="art" role="tabpanel" aria-labelledby="art-tab">
+							In my free time I enjoy drawing and painting. Photography too!
+							<br>
+							Programming games is one of my hobbies.
+						</div>
+					</div>
+				</main>
+
+			</div>
+		</div>
+
+
   </body>
 </html>
