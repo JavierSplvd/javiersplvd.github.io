@@ -6,6 +6,8 @@ body{
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 20px;
+	height: 100%;
+
 }
 
 
@@ -19,12 +21,8 @@ body{
  */
 
 .sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 100; /* Behind the navbar */
   padding: 0;
+	height: 100%;
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
 }
 
