@@ -8,9 +8,11 @@
 		<meta property="og:image" content="images/Manhattan_Bridge.jpg">
 		<meta property="og:description" content="Javier Sepúlveda Verdugo - Ingeniero Civil y Territorial, formado en la Escuela de Ingenieros de Caminos Canales y Puertos de Madrid">
 		<meta property="og:title" content="Javier Sepúlveda Verdugo">
-
+		<link rel="icon"
+		      type="image/png"
+		      href="icon.png">
 		<title>
-		Javier Sepúlveda - Ingeniero Civil y Territorial
+		Javier Sepúlveda
 		</title>
 		<!-- Bootstrap core CSS -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -19,24 +21,24 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<!-- Custom styles for this template -->
 		<link href="style.css" rel="stylesheet">
-
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 	</head>
 
   <body>
 		<nav class="navbar sticky-top flex-md-nowrap p-0">
-			<a class="heading col-sm-12 col-md-3 col-lg-3 col-xl-2 mr-0" href="">Javier Sepúlveda Verdugo</a>
+			<a class="heading col-sm-12 col-md-3 col-lg-3 col-xl-3 mr-0" href="">Javier Sepúlveda Verdugo</a>
 		</nav>
-		<div class="container-fluid">
-			<div class="row">
-				<nav class="col-sm-12 col-md-3 col-lg-3 col-xl-2 sidebar">
+		<div class="container-fluid h-100">
+			<div class="row h-100">
+				<nav class="col-sm-12 col-md-3 col-lg-3 col-xl-3 sidebar h-100">
 					<div class="sidebar-sticky">
 						<div class="container-fluid">
 							<div class="row">
 								<ul class="nav flex-column">
 									<li class="nav-item">
-										<a class="nav-link" id="engineering-tab" data-toggle="pill" href="#engineering" role="tab" aria-controls="engineering" aria-selected="false">
-											<object data="stone-bridge.svg" type="image/svg+xml" class="feather"></object>
+										<a class="nav-link active" id="engineering-tab" data-toggle="pill" href="#engineering" role="tab" aria-controls="engineering" aria-selected="false">
+											<object data="caminos-upm.svg" type="image/svg+xml" class="feather"></object>
 											Civil Engineering
 										</a>
 									</li>
@@ -48,11 +50,18 @@
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" id="art-tab" data-toggle="pill" href="#art" role="tab" aria-controls="art" aria-selected="false">
-											<object data="palette.svg" type="image/svg+xml" class="feather"></object>
+											<object data="brush.svg" type="image/svg+xml" class="feather"></object>
 											Art and computer games
 										</a>
 									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="contact-tab" data-toggle="pill" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
+											<object data="contact.svg" type="image/svg+xml" class="feather"></object>
+											Contact
+										</a>
+									</li>
 								</ul>
+
 							</div>
 						</div>
 					</div>
@@ -60,24 +69,32 @@
 
 
 				<div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
-					<main role="main" class=" pt-3 px-4">
+					<main role="main" class=" pt-5 px-4">
 						<div class="tab-content" id="pills-tabContent">
-							<div class="tab-pane fade" id="engineering" role="tabpanel" aria-labelledby="engineering-tab">
-								2011-2016: Bachelor degree in Civil Engineering in the Universidad Politécnica de Madrid.
-								<br>
-								2016-2018: Master degree in Civil Engineering in the Universidad Politécnica de Madrid, expertise in civil constructions.
+							<div class="tab-pane active show paragraph" id="engineering" role="tabpanel" aria-labelledby="engineering-tab">
+								<p>Hello,</p>
+								<p>My name is Javier and I am a civil engineer from Spain. One of my focus is geotechnic engineering and the other is making digital
+								applications to solve engineering problems.</p>
+								<p>Some academic information:</p>
+								<li class="item">2011-2016: Bachelor degree in Civil Engineering in the Universidad Politécnica de Madrid.</li>
+								<li class="item">2016-2018: Master degree in Civil Engineering in the Universidad Politécnica de Madrid, expertise in civil constructions.</li>
+
 							</div>
-							<div class="tab-pane fade" id="programming" role="tabpanel" aria-labelledby="programming-tab">
-								I usually work with: python and java.
-								<br>
-								Also HTML, CSS and javascript.
-								<br>
-								Experience developing GIS applications.
+							<div class="tab-pane fade paragraph" id="programming" role="tabpanel" aria-labelledby="programming-tab">
+								<li class="item">Programming languages I know: python and java.</li>
+								<li class="item">For web development: knowledge of HTML, CSS, javascript and libraries like jQuery, Bootstrap and Chart.js... This web is a simple example.</li>
+								<li class="item">Experience developing GIS applications using ESRI's ArcGIS js API.</li>
+								<li class="item">Link to my github: <a href="https://github.com/JavierSplvd">https://github.com/JavierSplvd</a></li>
 							</div>
-							<div class="tab-pane fade" id="art" role="tabpanel" aria-labelledby="art-tab">
-								In my free time I enjoy drawing and painting. Photography too!
-								<br>
-								Programming games is one of my hobbies.
+							<div class="tab-pane fade paragraph" id="art" role="tabpanel" aria-labelledby="art-tab">
+								<li class="item">Painting and drawing. One of my favourite artist is Aaron Blaise.</li>
+								<li class="item">Sometimes I do photography.</li>
+								<li class="item">Programming games is one of my hobbies. I am working in a chess using LibGDX.</li>
+
+							</div>
+							<div class="tab-pane fade paragraph" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+								<li class="item"><a href="mailto:javier.sepulveda.verdugo@gmail.com">Send an e-mail!</a></li>
+
 							</div>
 						</div>
 					</main>
