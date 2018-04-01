@@ -12,6 +12,9 @@ body{
 	height: 100%;
 
 }
+.small-font{
+	font-size: 13px;
+}
 .item{
 	padding-top: 10px;
 	padding-bottom: 10px;
