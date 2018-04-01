@@ -28,17 +28,13 @@ body{
 
 .sidebar {
   padding: 0;
-	height: 100%;
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
 }
 
 .sidebar-sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: 48px; /* Height of navbar */
   height: 100%;
-  padding-top: 4rem;
-	padding-left: 3rem;
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
 	background-color: #222;
